@@ -1,0 +1,28 @@
+section#juegos{
+    margin-top: 2rem;
+  
+    font-family: "System UI", sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    div.inner{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    
+    
+      img:hover{
+        transition: all 0.2s;
+        box-shadow: 0 0 3px lightgray;
+        transform: rotateX(5deg);
+  
+      }
+    }
+  
+  }
+  

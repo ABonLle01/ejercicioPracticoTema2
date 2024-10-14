@@ -1,0 +1,46 @@
+@import url('cta.css');
+@import url('footer.css');
+@import url('juegos.css');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+section#formulario{
+  background-color: lightgray;
+  font-size: 14px;
+  font-family: "System UI", sans-serif;
+
+  position: fixed;
+  top: -80px;
+  left: 0;
+  right: 0;
+
+  z-index: 9;
+
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+
+    input{
+      padding: 0.8rem;
+    }
+
+    button{
+      background-color: black;
+      color: white;
+      padding: 0.8rem; 
+      border-radius: 5px;
+      font-size: 14px;
+    }
+  }
+
+  &.show{
+    top: 0;
+  }
+  
+}

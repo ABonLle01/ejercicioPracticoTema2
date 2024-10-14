@@ -1,0 +1,20 @@
+footer{
+  margin-top: 2rem;
+
+  font-family: "System UI", sans-serif;
+  background-color: lightgray;
+
+  div.inner{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    p{
+      font-size: 14px;
+      color: black;
+    }
+
+  }
+}
